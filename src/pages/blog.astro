@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Blog | Elevra">
+  <main>
+    <h1>Latest Posts</h1>
+    <div class="posts">
+      <!-- Blog posts will be dynamically added here -->
+      <p>Coming soon...</p>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 80ch;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 2rem 0;
+  }
+  .posts {
+    display: grid;
+    gap: 2rem;
+  }
+</style>
